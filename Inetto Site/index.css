@@ -1,0 +1,790 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; box-sizing: border-box;
+}
+
+.head-box-1
+{
+    width: 100%;
+    background: rgb(172, 226, 23);
+    float: left;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+
+.container a
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-1
+{
+    margin-top: 15px;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    background: red;
+}
+
+.top-1 a
+{
+    color: white;
+}
+
+.top-2
+{
+    margin-top: 15px;
+    float: left;
+    margin-left: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    background: orange;
+}
+
+.top-2 a
+{
+    color: white;
+}
+
+.top-3
+{
+    margin-top: 15px;
+    float: left;
+    margin-left: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(93, 93, 214);
+}
+
+.top-3 a
+{
+    color: white;
+}
+
+.search
+{
+    float: right;
+}
+
+.search-top
+{
+    float: left;
+    width: 170px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: none;
+}
+
+label::before
+{
+    content: 'search';
+    font-family: 'Material Icons';
+    margin-top: 20px;
+    font-size: 28px;
+    background: white;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    float: left;
+}
+
+.head-box-2
+{
+    width: 100%;
+    background: rgb(172, 226, 23);
+    float: left;
+    /* position: fixed; */
+    /* margin-top: 60px; */
+}
+
+.container-2
+{
+    width: 80%;
+    margin: auto;
+}
+
+.company
+{
+    width: 290px;
+    /* background: red; */
+    float: left;
+}
+
+.company .company-text
+{
+    font-size: 90px;
+    padding: 0px 14px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    color: white;
+}
+
+.company .company-text-2
+{
+    font-size: 16px;
+    float: left;
+    color: black;
+    font-weight: bold;
+    padding: 0px 19px;
+    margin-top: -20px;
+}
+
+.main-nav
+{
+    width: 600px;
+    /* background: red; */
+    float: right;
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ul
+{
+    list-style: none;
+    margin-bottom: 70px;
+}
+
+.container-2 li:nth-child(5)
+{
+    float: left;
+}
+.main-nav li{
+    float: left;
+}
+.container-2 ul a
+{
+    text-decoration: none;
+    display: block;
+    /* margin-right: 10px; */
+    padding: 20px;
+}
+
+.main-nav a:hover
+{
+    background: red;
+    border-radius: 10px;
+    color: white;
+}
+.main-nav ul
+{
+    visibility: hidden; position: absolute; width: 180px; background: rgb(58, 218, 230);
+}
+.main-nav li:hover ul{ visibility: visible;}
+.main-nav ul li{
+     width: 100%;
+}
+
+ .service-ext
+{
+    width: 180px;
+    /* height: 110px; */
+    margin-right: 33%;
+    margin-top: 5px;
+    background: orange;
+    float: right;
+    /* display: none; */
+    z-index: -1;
+}
+
+.service-ext li
+{
+    width: 100%;
+    /* background: red; */
+    float: left;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.service-ext li:nth-child(1)
+{
+    margin-top: 10px;
+    float: left;
+}
+
+.service-ext a
+{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.service-ext a:hover
+{
+    background: red;
+}
+
+.networking
+{
+    width: 100%;
+    background: rgb(172, 226, 23);
+    float: left;
+}
+
+.net-box
+{
+    width: 600px;
+    height: 130px;
+    margin: auto;
+    /* background: red; */
+}
+
+.networking p
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+}
+
+.net-txt-2
+{
+    text-align: center;
+}
+
+.net-txt-3
+{
+    text-align: center;
+}
+
+.dots
+{
+    width: 100px;
+    margin-left: 620px;
+    margin-bottom: 20px;
+    float: left;
+    margin-top: 23px;
+}
+
+.dot-1
+{
+    height: 20px;
+    width: 20px;
+    background: rgb(20, 20, 20);
+    border-radius: 50px;
+    float: left;
+    margin-right: 20px;
+}
+
+.dot-2
+{
+    height: 20px;
+    width: 20px;
+    background: rgb(240, 230, 230);
+    border-radius: 50px;
+    float: left;
+    margin-right: 20px;
+}
+
+.dot-3
+{
+    height: 20px;
+    width: 20px;
+    background: rgb(235, 228, 228);
+    border-radius: 50px;
+    float: left;
+}
+
+.test
+{
+    height: 80px;
+    width: 100%;
+    float: left;
+    background: rgb(172, 226, 23);
+}
+
+.web-dev
+{
+    width: 210px;
+    margin-left: 50px;
+    height: 210px;
+    /* background: rgb(223, 153, 223); */
+    background: white;
+    float: left;
+    border-radius: 50%;
+}
+
+.web-dev-img
+{
+    width: 130px;
+    margin-left: 31px;
+    height: 120px;
+    margin-top: 30px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 40px;
+}
+
+.web-dev .web 
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.web-dev .dev 
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+}
+
+.web-dev .web-txt-1
+{
+    font-size: 19px;
+    margin-left: 1px;
+    margin-top: 9px;
+    font-weight: bold;
+    float: left;
+    color: rgb(46, 97, 207);
+    text-align: center;
+}
+
+.web-dev .read
+{
+    font-size: 19px;
+    font-weight: bold;
+    float: left;
+    margin-left: 25%;
+    margin-top: 14px;
+}
+
+.test .ml
+{
+    margin-left: 60px;
+    float: left;
+}
+
+.test .ml .support-img
+{
+    margin-left: 40px;
+    float: left;
+}
+
+.test .container
+{
+    width: 90%;
+}
+
+.test .ml .support-img-4
+{
+    width: 190px;
+    margin-left: 10px;
+    float: left;
+}
+
+.test-2
+{
+    height: 450px;
+    float: left;
+    /* background: aqua; */
+    width: 100%;
+}
+
+.services-new
+{
+    width: 100%;
+    height: 560px;
+    /* background: aqua; */
+    float: left;
+}
+
+.our-services
+{
+    width: 300px;
+    height: 490px;
+    /* background: red; */
+    float: left;
+}
+
+.our-services .services-txt
+{
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(109, 146, 35);
+}
+
+.our-services ul 
+{
+    width: 200px;
+    float: left;
+    margin-top: 30px;
+}
+
+.our-services li
+{
+    margin-bottom: 5px;
+    width: 240px;
+    background: rgb(194, 186, 186);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.our-services li a 
+{
+    color: black;
+}
+
+.our-services a:hover
+{
+    background: yellow;
+    color: blue;
+}
+
+.our-services li:hover
+{
+    background: yellow;
+    color: blue;
+}
+
+.our-services li::before
+{
+    content: 'play_circle_filled';
+    font-family: 'Material Icons'
+}
+
+.our-services li:nth-child(1)::before
+{
+    color: blue;
+}
+
+.it-sol
+{
+    width: 700px;
+    height: 490px;
+    /* background: aqua; */
+    float: right;
+}
+
+.it-sol-txt-1
+{
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 30px;
+    color: rgb(109, 146, 35);
+}
+
+.it-sol-img-1
+{
+    width: 240px;
+    height: 160px;
+    border: 6px solid rgb(179, 161, 161);
+    border-radius: 10px;
+    float: left;
+}
+
+.small-business-txt
+{
+    width: 420px;
+    height: 160px;
+    /* background: red; */
+    float: right;
+}
+
+.small-business-txt-1
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(109, 146, 35);
+}
+
+.small-business-txt-2
+{
+    margin-top: 8px;
+    color: grey;
+}
+
+.circle
+{
+    height: 20px;
+    width: 20px;
+    background: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    float: left;
+}
+
+.small-business-txt-3
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+.net-sol
+{
+    width: 100%;
+    height: 200px;
+    /* background: red; */
+    float: left;
+    margin-top: 60px;
+}
+
+.net-sol-img
+{
+    width: 240px;
+    height: 170px;
+    border: 6px solid rgb(179, 161, 161);
+    border-radius: 10px;
+    float: left;
+}
+
+.net-sol-txt
+{
+    width: 420px;
+    height: 160px;
+    /* background: red; */
+    float: right;
+}
+
+.net-sol-txt-1
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(109, 146, 35);
+}
+
+.bottom
+{
+    width: 100%;
+    height: 300px;
+    background: black;
+    float: left;
+    color: white;
+}
+
+.bottom a
+{
+    color: rgb(187, 144, 144);
+    font-weight: normal;
+}
+
+.bottom a:hover
+{
+    color: yellow;
+}
+
+.bottom .address-color
+{
+    color: rgb(187, 144, 144);
+}
+
+.our-company
+{
+    width: 240px;
+    height: 250px;
+    /* background: yellow; */
+    border-right: 1px solid white;
+    float: left;
+    margin-top: 25px;
+}
+
+.our-company-txt-1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.our-company li
+{
+    margin-top: 15px;
+    font-size: 20px;
+    list-style: disc;
+    margin-left: 23px;
+}
+
+.main-services
+{
+    width: 240px;
+    height: 250px;
+    /* background: yellow; */
+    border-right: 1px solid white;
+    float: left;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.main-services-txt-1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-services li
+{
+    margin-top: 15px;
+    font-size: 20px;
+    list-style: disc;
+    margin-left: 23px;
+}
+
+.rel-links
+{
+    width: 240px;
+    height: 250px;
+    /* background: yellow; */
+    border-right: 1px solid white;
+    float: left;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.rel-links-txt-1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rel-links li
+{
+    margin-top: 15px;
+    font-size: 20px;
+    list-style: disc;
+    margin-left: 23px;
+}
+
+.address
+{
+    width: 240px;
+    height: 250px;
+    /* background: yellow; */
+    float: right;
+    margin-top: 25px;
+}
+
+.address-txt-1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.address-txt-2
+{
+    margin-top: 15px;
+}
+
+.address-txt-3
+{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.bottom-2
+{
+    width: 100%;
+    height: 60px;
+    background: rgb(17, 16, 16);
+    float: left;
+}
+
+.inetto
+{
+    float: left;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+
+.a2011 
+{
+    margin-top: 20px;
+    float: left;
+    color: white;
+}
+
+.a2011::before
+{
+    content: 'copyright';
+    font-family: 'Material Icons';
+    margin-left: 7px;
+    margin-right: 3px;
+    color: white;
+    float: left;
+}
+
+.policy
+{
+    float: left;
+    margin-top: 20px;
+    color: white;
+}
+
+.donts
+{
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(115, 115, 233);
+}
+
+.facebook
+{
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: rgb(99, 99, 209);
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.green
+{
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: rgb(27, 221, 27);
+    border-radius: 50px;
+    color: rgb(17, 69, 73);
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.twitter
+{
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: rgb(10, 228, 108);
+    border-radius: 50px;
+    color: rgb(182, 248, 0);
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
